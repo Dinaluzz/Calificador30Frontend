@@ -1,0 +1,80 @@
+# See https://docs.github.com/get-started/getting-started-with-git/ignoring-files for more about ignoring files.
+
+# Compiled output
+/dist
+/tmp
+/out-tsc
+/bazel-out
+
+# Node
+/node_modules
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# IDEs and editors
+.idea/
+*.iml
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# Miscellaneous
+/.angular/cache
+.angular/
+.sass-cache/
+connect.lock
+coverage/
+libpeerconnection.log
+testem.log
+typings/
+__screenshots__/
+.cache/
+logs/
+
+# Build tools / temp files
+*.tmp
+*.temp
+*.swp
+*.swm
+*.swo
+*.bak
+*.log
+*.pid
+*.seed
+*.pid.lock
+
+# System files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+desktop.ini
+
+# Other package managers
+/npm/
+jspm_packages/
+.bower_components/
+.idea_modules/
+node_repl_history
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Optional - uncomment if you want to keep lock files
+# !package-lock.json
+# !yarn.lock
+# !pnpm-lock.yaml
